@@ -90,7 +90,7 @@ i {
 /* ------- BASE -------- */
 body {
     background: var(--body-color);
-}
+} 
 
 /* .container {
     width: 100%;
@@ -501,7 +501,6 @@ h3 {
     color: var(--containerText-color);
     opacity: 0.6;
     font-size: .9rem;
-    font-weight: 500;
     line-height: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
@@ -759,6 +758,9 @@ footer {
     .featured-text {
         padding: 0;
     }
+    .featured-box{
+        justify-content: center;
+    }
 
     .image,
     .image img {
@@ -776,16 +778,24 @@ footer {
            .project-box label {
                font-size: .7rem;
            }
+           .project-box i{
+            font-size: 35px;
+           }
 .contact-info{
     width: 400px;
 }
     .contact-info p{ 
         font-size: .7rem;
     }
-
-       
+.timeline-topic{
+    font-size: 1.1rem;
+}
+  
+.timeline-content h3{
+    font-size: 0.9rem;
+}
         .nav-menu{
-            font-size: 0.7rem;
+            font-size: 0.8rem;
         
         }
 
@@ -794,7 +804,7 @@ footer {
 }
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
     .nav-button {
         display: none;
     }
@@ -829,13 +839,15 @@ footer {
         align-items: center;
         justify-content: center;
     }
-
+    .timeline-items{
+        width: 600px;
+    }
     .timeline-topic {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .timeline-content h3 {
-        font-size: .9rem;
+        font-size: .7rem;
     }
 
     .timeline-content p {
