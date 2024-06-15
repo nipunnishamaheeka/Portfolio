@@ -803,7 +803,7 @@ footer {
         
 }
 
-/* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
+/* ----- MEDIA QUERY == 768px / RESPONSIVE ----- */
 @media only screen and (max-width: 768px) {
     .nav-button {
         display: none;
@@ -839,9 +839,9 @@ footer {
         align-items: center;
         justify-content: center;
     }
-    .timeline-items{
+    /* .timeline-items{
         width: 600px;
-    }
+    } */
     .timeline-topic {
         font-size: 0.9rem;
     }
@@ -917,13 +917,7 @@ footer {
 
 
 }
-@media only screen and (max-width: 768px) {
 
-    .featured-text{
-  align-items: center;
-    }
-
-}
 @media only screen and (max-width: 425px) {
 
     .timeline-content h3{
@@ -938,6 +932,14 @@ footer {
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
 @media only screen and (max-width: 540px) {
+    .featured-box{
+        margin-left: 50px;
+        width: 100%;
+    }
+    .social_icons{
+        margin-left: 30px;
+    }
+
     .featured-name {
         font-size: 40px;
     }
