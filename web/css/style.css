@@ -943,6 +943,32 @@ footer {
     .featured-name {
         font-size: 40px;
     }
+    .timeline-topic{
+        font-size: 0.9rem;
+    }
+    .timeline-items::before{
+        width: 2px;
+        left: calc(110%) ;
+    }
+        .timeline-item:nth-child(odd) {
+            padding-right: 0;
+        }
+
+        .timeline-item:nth-child(even) {
+            padding-left: 0;
+        }
+
+        .timeline-dot{
+            left: 0;
+            margin-left: 108.5%;
+            margin-right: 0;
+            top: 0;
+            bottom: 0;
+            width: 10px;
+            height: 10px;
+          
+
+        }
 
     .project-box {
         width: 100%;
