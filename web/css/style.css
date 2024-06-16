@@ -39,6 +39,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /* ----- CHANGE THE SCROLL BAR DESIGN ----- */
 ::-webkit-scrollbar {
     width: 10px;
@@ -90,6 +94,7 @@ i {
 /* ------- BASE -------- */
 body {
     background: var(--body-color);
+    overflow-x: hidden;
 } 
 
 /* .container {
