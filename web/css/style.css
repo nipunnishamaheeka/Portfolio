@@ -984,4 +984,18 @@ footer {
     .input-field {
         width: 100%;
     }
+    .top-footer p{
+        font-size: 1.1rem;
+    }
+    .footer_menu_list a{
+        font-size: 0.8rem;
+    }
+    .footer-social-icons{
+        font-size: 1rem;
+        margin: 0 5px;
+    
+    }
+    .bottom-footer{
+        font-size: 0.7rem;
+    }
 }
